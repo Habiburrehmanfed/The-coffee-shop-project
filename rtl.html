@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en" class="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coffee Shop Web Design</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaquery.css" />
+    <link rel="stylesheet" href="rtl.css" />
+    <script
+      src="https://kit.fontawesome.com/ee86324604.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- ================================
+                Header Section Start!! 
+    ================================== -->
+    <header id="header">
+      <div class="container navbar-items">
+        <nav class="hero-navbar">
+          <span class="logo">logo</span>
+          <div class="hero-lang-dropdown">
+            <button id="moon" class="mode-switcher"></button>
+            <select
+              id="lang-switch"
+              class="bolder-click"
+              name="links"
+              size="1"
+              onchange="window.location.href=this.value;"
+            >
+              <option class="down" value="index.html">En</option>
+              <option class="down" value="Ar">Ar</option>
+              <option class="down" value="index.html">Jp</option>
+            </select>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- ================================
+                Header Section End!! 
+    ================================== -->
+    <!-- ================================
+                Hero Section Starts here!! 
+    ================================== -->
+    <section class="main-div-hero">
+      <div class="hero-content">
+        <div class="text-content coffee-img-content">
+          <div class="h1-p">
+            <h1 class="hero-heading ding">Lorem ipsum dolor sit amet.</h1>
+            <p class="hero-paragraph para">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Deleniti, eius. Lorem ipsum dolor sit amet.
+            </p>
+            <button class="btn-see-more">see more</button>
+          </div>
+          <div class="coffee-cup-img">
+            <img
+              class="coffee-cup"
+              src="/img/Coffee-cup.png"
+              alt="coffee-cup"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="hero-social absolute">
+        <ul class="social-icons">
+          <li class="fb icons">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+          </li>
+          <li class="twitter icons">
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          </li>
+          <li class="insta icons">
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- ================================
+                Hero Section End!! 
+    ================================== -->
+
+    <!-- ================================
+                About Section Start!! 
+    ================================== -->
+    <section class="about-section">
+      <div class="about-container">
+        <div class="about-text">
+          <h1 class="sec-header-title ding">Lorem ipsum dolor sit.</h1>
+          <p class="about-paragraph para">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          </p>
+          <div class="line"></div>
+        </div>
+        <div class="about-content-img-text justify-content">
+          <div class="about-img">
+            <img
+              class="about-section-img"
+              src="/img/about.jpg"
+              alt="coffee-making-img"
+            />
+            <!-- <img class="img-dots" src="/img/dots.png" alt="dots-img" /> -->
+          </div>
+          <div class="info-content">
+            <h1 class="about-section-heading ding">
+              Lorem ipsum dolor sit amet.
+            </h1>
+            <p class="about-section-paragraph para">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
+              accusamus ut soluta distinctio enim minima sapiente facilis rerum?
+              Sunt temporibus totam tempore autem quam asperiores eligendi ea
+              eos, quas cum.
+            </p>
+            <h1 class="about-section-heading margin-top ding">
+              Lorem ipsum dolor sit amet.
+            </h1>
+            <p class="about-section-paragraph para">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Perferendis error facilis neque cumque, mollitia molestias amet
+              soluta aliquid eaque possimus unde atque exercitationem quam
+              architecto velit porro deserunt recusandae nulla.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ================================
+                About Section End!! 
+    ===================================== -->
+
+    <!-- ================================
+                Menu Section Start!! 
+    ===================================== -->
+    <section class="menu-section">
+      <div class="container-menu">
+        <div class="menu-content">
+          <p class="menu-paragraph para">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis,
+            temporibus. Maxime totam nesciunt enim at voluptate harum autem
+            assumenda vero illo nobis temporibus, voluptatem reprehenderit,
+            fugiat vel dolores praesentium expedita, eos molestiae. Sed porro
+            consequuntur, inventore beatae voluptatum debitis eos.
+          </p>
+          <button class="btn-book-now">book now</button>
+        </div>
+        <div class="menu-img-container">
+          <img
+            class="img-cup"
+            src="/img/cup.png"
+            alt="cup"
+            width="478px"
+            height="477px"
+          />
+        </div>
+      </div>
+    </section>
+    <!-- ================================
+                Menu Section End!! 
+    ===================================== -->
+
+    <!-- ================================
+                Cards Section Start!! 
+    ===================================== -->
+
+    <section class="cards-section">
+      <div class="card-container">
+        <h1 class="card-heading ding">Lorem ipsum dolor sit.</h1>
+        <p class="card-paragraph para">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+        </p>
+      </div>
+      <div class="box-container">
+        <div class="cards card-1">
+          <div class="first-card">
+            <div class="img-section-card1">
+              <div class="special-offer">
+                special<br />
+                offer
+              </div>
+              <img
+                class="offer1-img"
+                src="/img/offer1.png"
+                alt="icecream-cup"
+                width="270px"
+                height="200px"
+              />
+            </div>
+            <p class="card-paragraph para">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Praesentium adipisci dignissimos modi aliquid minima
+            </p>
+            <p class="card-price">$25.00</p>
+          </div>
+        </div>
+        <div class="cards card-2">
+          <div class="first-card">
+            <div class="img-section-card1">
+              <div class="special-offer">
+                best<br />
+                offer
+              </div>
+              <img
+                class="offer1-img"
+                src="/img/offer2.png"
+                alt="cup-cake"
+                width="270px"
+                height="200px"
+              />
+            </div>
+            <p class="card-paragraph para">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Praesentium adipisci dignissimos modi aliquid minima
+            </p>
+            <p class="card-price">$25.00</p>
+          </div>
+        </div>
+        <div class="cards card-3">
+          <div class="first-card">
+            <div class="img-section-card1">
+              <div class="special-offer">best offer</div>
+              <img
+                class="offer1-img"
+                src="/img/offer3.png"
+                alt="cream-roll"
+                width="270px"
+                height="200px"
+              />
+            </div>
+            <p class="card-paragraph para">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Praesentium adipisci dignissimos modi aliquid minima
+            </p>
+            <p class="card-price">$25.00</p>
+          </div>
+        </div>
+      </div>
+      <div class="see-all">
+        <button class="btn-see-all">see all</button>
+      </div>
+    </section>
+    <!-- ================================
+                Cars Section End!! 
+    ===================================== -->
+
+    <!-- ================================
+                Footer Section Start!! 
+    ===================================== -->
+
+    <footer id="footer">
+      <section class="footer-section">
+        <div class="footer-container">
+          <div class="logo-content">
+            <div class="logo-footer">logo</div>
+            <p class="footer-paragraph para">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
+              facere expedita possimus veritatis. Reiciendis, sed qui maiores
+              deserunt aspernatur dignissimos eveniet inventore odit nobis
+              voluptate quos iusto placeat temporibus fugiat.
+            </p>
+          </div>
+          <div class="quick-links-container">
+            <div class="quick-links">quick links</div>
+            <div class="links">
+              <ul class="un-or-li">
+                <li class="f-list-items">
+                  <a href="#">About</a>
+                </li>
+                <li class="f-list-items">
+                  <a href="#">FAQ</a>
+                </li>
+                <li class="f-list-items">
+                  <a href="#">Offers</a>
+                </li>
+                <li class="f-list-items">
+                  <a href="#">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="subscribe-container">
+            <div class="subscribe-to our">Subscribe to our Newsletter</div>
+            <p class="f-last-paragraph para">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Cupiditate debitis ration.
+            </p>
+            <div class="search-box">
+              <input type="text" placeholder="Enter you email" class="input" />
+              <button class="subscribe">subscribe</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </footer>
+    <script src="/script.js"></script>
+  </body>
+</html>
