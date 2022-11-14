@@ -1,0 +1,71 @@
+html.rtl {
+  direction: rtl;
+}
+
+html.rtl .h1-p {
+  z-index: 1;
+}
+
+html.rtl .main-div-hero::after {
+  right: unset;
+  left: 0;
+  transform: scaleX(-1);
+}
+
+html.rtl .coffee-cup-img {
+  transform: scaleX(-1);
+  margin-right: 130px;
+}
+
+html.rtl .hero-social {
+  left: unset;
+}
+
+html.rtl .container-menu {
+  /* transform: translateX(-1); */
+}
+
+html.rtl .menu-content {
+  transform: scaleX(-1);
+  padding-top: 110px;
+  z-index: -1;
+  max-width: 100%;
+
+  padding-bottom: 15px;
+  align-items: center;
+  direction: ltr;
+  border-radius: 40% 0% 0% 7% / 50% 8% 10% 9%;
+}
+
+html.rtl .menu-paragraph {
+  max-width: 80%;
+  /* transform: scaleX(1); */
+  /* transform: rotateY(180deg); */
+}
+
+html.rtl .btn-book-now {
+  /* transform: scaleX(-1); */
+  direction: rtl;
+  transform: rotateY(360deg);
+  right: 0;
+  left: unset;
+}
+
+html.rtl .img-cup {
+  margin-right: -182px;
+  z-index: 1;
+  margin-left: 1px;
+}
+
+html.rtl .menu-img-container {
+}
+
+html.rtl .placeholder {
+  transform: scaleX(-1);
+  /* direction: rtl; */
+}
+
+html.rtl .subscribe {
+  left: 0;
+  right: unset;
+}
